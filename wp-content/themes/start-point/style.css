@@ -21,7 +21,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import url(css/font-awesome.min.css);
 
 /*----- Reset Css -----*/
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -35,8 +35,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -48,13 +48,13 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
   line-height: 25px;
-  font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
+  font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
   font-size: 15px;
 }
 ol, ul {
@@ -76,7 +76,7 @@ table {
 
 /*----- Common Styles -----*/
 b,strong {
-  font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif; 
+  font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
   font-weight: 700;
 }
 a:hover {
@@ -192,12 +192,12 @@ color: rgba(255, 255, 255, 0.3);
   padding-bottom: 10px;
   padding-top: 8px;
 }
-/* mobile menu */ 
+/* mobile menu */
 .mm-fixed-top a  img{
   width: 40px;
   height: 40px;
 }
-.mm-fixed-top { 
+.mm-fixed-top {
   z-index: 4;
 }
 .mm-fixed-top {
@@ -211,20 +211,20 @@ color: rgba(255, 255, 255, 0.3);
 }
 .text-container h3 {
     background: #fff;
-    color: #555;
+    color: #a8a8aa;
     display: inline-block;
     padding: 10px 30px;
     position: relative;
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: -11px;
 }
 .text-container h1 {
     background: #fff;
     margin-top: -13px;
-    color: #555;
-    padding: 55px 56px;
+    color: #a8a8aa;
+    padding: 20px 56px;
     display: inline-block;
-    font-size: 25px;
+    font-size: 36px;
 }
 .text-container p {
     margin-top: 40px;
@@ -320,14 +320,15 @@ html[xmlns] .slides {display: block;}
 /* Alternate Caption CSS */
 #flex-main { padding: 0 40px; max-width: 1200px; margin: 0 auto; }
 .flex-caption { width: 100%; margin: 0; }
-.text-container { width: 100%; padding: 20px; }
-.text-container a:hover { text-decoration: underline; }
+.text-container { width: 100%; padding: 20px; display: none; }
+.text-container a:hover { text-decoration: underline;  }
 
 /* 860px and above CSS of Alternate Caption */
 @media screen and (min-width: 860px) {
   .flex-caption { width: 100%; max-width: 4000px; margin: 0 auto; position: absolute; top: 65%; z-index: 2; }
   .caption-container { position: relative; width: 100%; margin: 0 auto; padding-left: 2%; }
-  .text-container { max-width: 100%; position: relative; -webkit-animation: slideIn; -moz-animation: slideIn; -o-animation: slideIn; animation: slideIn; -webkit-animation-duration: 2s; -moz-animation-duration: 2s; -o-animation-duration: 2s; animation-duration: 2s; } }
+  .text-container { display: block; max-width: 100%; position: relative; -webkit-animation: slideIn; -moz-animation: slideIn; -o-animation: slideIn; animation: slideIn; -webkit-animation-duration: 2s; -moz-animation-duration: 2s; -o-animation-duration: 2s; animation-duration: 2s; }
+}
 
 /* Direction Nav */
 .flex-direction-nav {*height: 0;}
@@ -399,7 +400,7 @@ html[xmlns] .slides {display: block;}
   transition: all .5s;
 }
 .three-column-container .col-md-4.box1:hover, .three-column-container .col-md-4.box2:hover, .three-column-container .col-md-4.box3:hover {
-  background: #31708f;
+  background: #555;
   color: #fff;
 }
 .three-column-box {
@@ -686,7 +687,7 @@ footer a {
 }
 /* back to top */
 /*
-Back to top button 
+Back to top button
 */
 #back-top {
   position: fixed;
@@ -694,7 +695,7 @@ Back to top button
   right: 10px;
 }
 #back-top a {
-  
+
   display: block;
   text-align: center;
   text-transform: uppercase;
@@ -1131,7 +1132,7 @@ a img.aligncenter {
     text-decoration:underline;
 }
 .gallery-caption {
-} 
+}
 .bypostauthor{
 }
 /* ---WP Core Styling Image around Text alignment Ends --- */
@@ -1212,7 +1213,7 @@ a img.aligncenter {
   bottom: 0;
 }
 .footer-menu #nav li.current_page_item > a, .footer-menu #nav li.current_menu_item > a  {
-  
+
 }
 /* Styles for Menu Items */
 /* set dropdown to default */
@@ -1284,7 +1285,7 @@ color: #e3e3e3;
 
 /* --- Footer Copyright Starts --- */
 .footer-copyright-wrapper {
-  background: #23282d;
+  background: #4a4a4a;
   color: #5f5f5f;
   font-size: 14px;
 }
@@ -1320,7 +1321,7 @@ color: #e3e3e3;
 }
 .footer-copyright p{
   padding-top: 27px;
-  padding-bottom: 27px; 
+  padding-bottom: 27px;
 }
 .footer menu li {
   margin-bottom: 9px;
@@ -1386,7 +1387,7 @@ margin-top: 9px;
   color: #3d3d3d;
 }
 
-.commentlist .comment-meta {} 
+.commentlist .comment-meta {}
 .commentlist .comment-meta a {
   color: #e3e3e3;
 }
@@ -1448,10 +1449,10 @@ margin-top: 9px;
 .logged-in-as {
   margin-bottom: 15px;
 }
-.logged-in-as a{ 
+.logged-in-as a{
   color: #2c2c2c;
 }
-.logged-in-as a:hover{ 
+.logged-in-as a:hover{
   color: #e3e3e3;
 }
 .comment-respond {
@@ -1567,7 +1568,6 @@ margin-top: 0px;
 }
 .breadcrum-wrapper {
   background: url(images/slider1.jpg) no-repeat center;
-  box-shadow: 0px 0px 15px 0px rgba(170, 170, 170, 1.4);
 }
 .breadcrum h4 {
   padding-top: 16px;
@@ -1680,7 +1680,7 @@ box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
 }
 #nav-single {
   margin-right: 24px;
-  margin-bottom: 30px;  
+  margin-bottom: 30px;
 }
 #nav-single a {
   color: #fff;
@@ -1966,7 +1966,7 @@ left: 9.9%;
   .contact-container form input[type='text'] {
     width: 71%;
   }
-  
+
 .comment-form-author, .comment-form-url {
   float: none;
 }
@@ -2002,8 +2002,8 @@ left: 7.4%;
   width: 100%;
 }
 .testmnl .tstmnl-img {
-float: none; 
-display: block; 
+float: none;
+display: block;
 text-align: center;
 margin-top: 11px;
 }
@@ -2165,7 +2165,7 @@ padding: 10px 18px 15px 18px;
 
 /* opera */
  @media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) {
-       .contact-container form label { 
+       .contact-container form label {
           padding: 10px 18px 18px;
       }
 }
