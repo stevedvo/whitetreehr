@@ -20,11 +20,11 @@ get_header();
     <div class="container">
         <div class="row">
             <div class="blogpost-content">
-                <div class="col-md-9">
+                <div class="col-md-12">
                     <!-- *** Post loop starts *** -->
 
                     <!-- *** Post1 Starts *** -->
-                    <?php if (have_posts()) : while (have_posts()) : the_post(); ?> 
+                    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                             <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                                 <div class="post-page">
                                     <h1 class="post-page-head"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
@@ -66,11 +66,6 @@ get_header();
                     <!-- ***Comment Template *** -->
 <?php comments_template(); ?>
                     <!-- ***Comment Template *** -->
-                </div>
-                <div class="col-md-3">
-                    <!-- *** Sidebar Starts *** -->
-<?php get_sidebar(); ?>
-                    <!-- *** Sidebar Ends *** -->
                 </div>
             </div>
         </div>

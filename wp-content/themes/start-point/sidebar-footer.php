@@ -8,7 +8,7 @@
                 <?php else : ?>
                     <h4><?php _e('About Us', 'start-point'); ?></h4>
                     <p>
-                       <?php _e('We make simple and easy to use WordPress themes. This will help you to make your website easily.', 'start-point'); ?> 
+                       <?php _e('We make simple and easy to use WordPress themes. This will help you to make your website easily.', 'start-point'); ?>
                     </p>
                     <p>
                         <?php _e('You just need to simply install the theme and your website will be ready within few minutes.', 'start-point'); ?>
@@ -28,8 +28,8 @@
                         <li>Spring Wear, Morning, Noon Fashion</li>
                         <li>Fashion Is Not A Show Off</li>
                     </ul>', 'start-point'); ?>
-                    
-                <?php endif; ?>					
+
+                <?php endif; ?>
             </div>
         </div>
         <div class="col-md-4">
@@ -38,7 +38,7 @@
                     <?php dynamic_sidebar('fourth-footer-widget-area'); ?>
                 <?php else : ?>
                     <h4><?php _e('Any Queries', 'start-point'); ?></h4>
-                    <p><?php _e('If you have any queries regarding the theme or need any help you can contact us at inkthemes@gmail.com.', 'start-point'); ?></p>
+                    <p><?php _e('If you have any queries regarding the theme or need any help you can contact us at stephanie@whitetreehr.co.uk', 'start-point'); ?></p>
                     <p><?php _e('Feel free to ask anything. We will provide you the best support.', 'start-point'); ?></p>
                     <form role="search" method="get" class="searchform" action="#">
                         <div>
