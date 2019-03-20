@@ -19,6 +19,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import url(fonts/fonts.css);
 @import url(css/ie-only.css);
 @import url(css/font-awesome.min.css);
+@import url(css/gillsans.css);
 
 /*----- Reset Css -----*/
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -54,9 +55,17 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 25px;
-  font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
+  font-family: Gill Sans Regular;
   font-size: 15px;
 }
+
+body {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
 ol, ul {
 
 }
@@ -76,7 +85,7 @@ table {
 
 /*----- Common Styles -----*/
 b,strong {
-  font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
+  font-family: Gill Sans Regular;
   font-weight: 700;
 }
 a:hover {
@@ -145,7 +154,7 @@ code {
   background: #fff;
 }
 .menu-sp ul a{
-  color: #555;
+  color: #a8a8aa;
   font-size: 16px;
 }
 .menu-sp ul a:hover {
@@ -224,7 +233,7 @@ color: rgba(255, 255, 255, 0.3);
     color: #a8a8aa;
     padding: 20px 56px;
     display: inline-block;
-    font-size: 36px;
+    font-size: 46px;
 }
 .text-container p {
     margin-top: 40px;
