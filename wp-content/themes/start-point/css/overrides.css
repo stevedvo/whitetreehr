@@ -1,0 +1,9 @@
+.three-column-container .right-to-left
+{
+	display: none;
+}
+
+.three-column-container .right-to-left.animation_started
+{
+	display: block;
+}
