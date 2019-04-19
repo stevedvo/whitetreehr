@@ -20,6 +20,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import url(css/ie-only.css);
 @import url(css/font-awesome.min.css);
 @import url(css/gillsans.css);
+@import url(css/overrides.css);
 
 /*----- Reset Css -----*/
 /* http://meyerweb.com/eric/tools/css/reset/

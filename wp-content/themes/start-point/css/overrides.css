@@ -1,0 +1,20 @@
+.three-column-container
+{
+	overflow: hidden;
+}
+
+.animated.right-to-left,
+.animated.right-to-left.animation_started
+{
+	transform: none;
+}
+
+.animated.right-to-left
+{
+	right: -25%;
+}
+
+.animated.right-to-left.animation_started
+{
+	right: 0px;
+}
