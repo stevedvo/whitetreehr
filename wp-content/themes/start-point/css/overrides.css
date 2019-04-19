@@ -1,9 +1,20 @@
-.three-column-container .right-to-left
+.three-column-container
 {
-	display: none;
+	overflow: hidden;
 }
 
-.three-column-container .right-to-left.animation_started
+.animated.right-to-left,
+.animated.right-to-left.animation_started
 {
-	display: block;
+	transform: none;
+}
+
+.animated.right-to-left
+{
+	right: -25%;
+}
+
+.animated.right-to-left.animation_started
+{
+	right: 0px;
 }

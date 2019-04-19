@@ -48,7 +48,7 @@
 }
 </style>
 <script type="text/javascript">
-    $('#maindiv').width($('#div1').width());
+    jQuery('#maindiv').width(jQuery('#div1').width());
 </script>
 <!-- *** Slider Starts *** -->
 <div id="page">
